@@ -26,8 +26,8 @@ class SplitType(StrEnum):
     PERCENTAGE = "PERCENTAGE"
     
 class SettlementAlgo(StrEnum):
-    HEAP_BASED = "heap_based"
-    BRUTE_FORCE = "brute_force"    
+    HEAP_BASED = "HEAP_BASED"
+    BRUTE_FORCE = "BRUTE_FORCE"    
 
 class SplitStrategy(ABC):
     _registry: Dict[str, Type["SplitStrategy"]] = {}
